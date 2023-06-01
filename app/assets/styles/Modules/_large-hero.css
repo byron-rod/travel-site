@@ -1,6 +1,12 @@
 .large-hero {
     position: relative;
+    border-bottom: 10px solid #2f5572;
 }
+.large-hero__image {
+    display: block;
+}
+
+
 .large-hero__text-content {
     position: absolute;
     font-family: 'Roboto', sans-serif;
@@ -15,18 +21,18 @@
     font-weight: 300;
     color: #2f5572;
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 2.4rem;
 
    @mixin atSmall {
-    font-size: 2rem;
+    font-size: 2.8rem;
    }
 
    @mixin atMedium {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
    }
 
    @mixin atLarge {
-    font-size: 4.8rem;
+    font-size: 5.2rem;
    }
 
 }
@@ -34,19 +40,19 @@
 .large-hero__subtitle {
     font-weight: 300;
     color: #2f5572;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin: 0;
 
         @mixin atSmall {
-        font-size: 2rem;
+        font-size: 1.9rem;
        }
     
        @mixin atMedium {
-        font-size: 3.2rem;
+        font-size: 2.4rem;
        }
     
        @mixin atLarge {
-        font-size: 4.8rem;
+        font-size: 3.5rem;
        }
 
 }
@@ -59,4 +65,5 @@
     max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
+
 }
